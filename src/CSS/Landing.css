@@ -1,0 +1,60 @@
+    .container-fluid {
+        padding: 0;
+    }
+.custom-caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    /* Adjust the width as needed */
+}
+
+.custom-caption .text-box {
+    color: #fff;
+    width: 500px;
+    height: 500px
+}
+.carousel-inner{
+  position: relative;
+  
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+
+    width: 100%;
+    /* Ensure the image covers the full width */
+}
+.carousel-control-prev {
+    left: 0;
+    background-color: transparent;
+    /* Remove the background */
+}
+
+.carousel-control-next {
+    right: 0;
+    background-color: transparent;
+    /* Remove the background */
+}
+
+/* Optional: Remove any potential default padding/margin */
+.carousel-control-prev,
+.carousel-control-next {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+/* Ensure that there are no additional transparent areas around the buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

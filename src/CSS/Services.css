@@ -1,0 +1,47 @@
+.row{
+    padding: 5px;
+    margin: 15px;
+}
+
+.animated-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    /* Ensure the card takes full width of its container */
+}
+
+.animated-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-left {
+    width: 200px;
+    height: 210px;
+}
+
+.card-body {
+    padding: 1.5rem;
+
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    color: #020F2A;
+    font-weight: 400;
+}
+
+.lead {
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 250;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .card-img-left {
+        width: 100%;
+    }
+}

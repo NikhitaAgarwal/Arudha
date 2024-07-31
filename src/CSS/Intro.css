@@ -1,0 +1,196 @@
+.container-{
+    padding: 0;
+    margin: 0;
+}
+
+.text-center{
+    color: #020F2A;
+    font-size: 1.5rem;
+}
+
+.title-center {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: fadeInTitle 3s ease-in-out forwards;
+    color: #10438F;
+    display: inline-block;
+}
+
+.title-center::first-letter {
+    color: #020F2A;
+    font-size: 4.5rem;
+}
+
+.title-center span {
+    text-transform: uppercase;
+    color: #10438F;
+}
+
+.title-center span::first-letter {
+    color: #020F2A;
+}
+
+.text-center-right {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+    
+.styled-paragraph {
+    margin: 0;
+    padding: 0;
+}
+
+.styled-paragraph p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: black;
+    animation: fadeInTitle 1s ease-in-out forwards;
+    text-align: left;
+}
+
+.styled-paragraph strong {
+    color: #020F2A;
+    font-size: 1.2rem;
+}
+
+.styled-paragraph br {
+    margin: 0.5rem 0;
+}
+
+.styled-paragraph br {
+    margin: 0.5rem 0;
+}
+
+/* Keyframes for animation */
+@keyframes fadeInTitle {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation for text */
+.fadeInText {
+    animation: fadeInText 2s ease-in-out forwards;
+}
+
+/* Keyframes for text animation */
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    .title-center {
+        font-size: 2.5rem;
+        /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .title-center {
+        font-size: 1.8rem;
+        /* Further adjustment for mobile screens */
+    }
+}
+
+/* For Services Card */
+/* Add this CSS file for animations and card styles */
+
+
+/* Custom CSS for the Card Component */
+.card {
+    margin-top: 30px;
+    margin-bottom: 1rem;
+    /* Ensure cards take full height */
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    /* Start invisible */
+    animation: fadeIn 1s forwards;
+    /* Apply the fade-in animation */
+}
+
+/* Ensure the card text is styled properly */
+.card-text {
+    font-size: 1rem;
+    font-style: normal;
+    font-family: serif;
+    color: rgb(49, 46, 46);
+}
+
+.card-title {
+    font-size: large;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+
+/* Add some margin to the bottom of each card for spacing between rows */
+.card-body {
+    flex-grow: 1;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+/* Override Bootstrap's default styles if needed */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    /* Ensure the image covers the space */
+    max-width: 100%;
+    /* Ensure the image width fits within the card */
+}
+
+/* Optional: Customize the card body padding */
+
+/* Optional: Add some hover effects for the cards */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(131, 179, 218, 1.2);
+    /* Add a subtle shadow on hover */
+    transition: box-shadow 0.3s ease-out;
+}
+
+@media (max-width: 767px) {
+    .col-12 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* For Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+        /* Start slightly below */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        /* End at original position */
+    }
+}
