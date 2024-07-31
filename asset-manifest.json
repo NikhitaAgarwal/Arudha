@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Arudha/static/css/main.ac202138.css",
+    "main.js": "/Arudha/static/js/main.7640a466.js",
+    "static/js/453.754f0d1f.chunk.js": "/Arudha/static/js/453.754f0d1f.chunk.js",
+    "static/media/service4.png": "/Arudha/static/media/service4.3cddf99c615c2de53ef0.png",
+    "static/media/service6.png": "/Arudha/static/media/service6.6964270451df47664443.png",
+    "static/media/service3.png": "/Arudha/static/media/service3.a25dd2b38ef2a6d66466.png",
+    "static/media/service5.png": "/Arudha/static/media/service5.9c93b524658b819b0b21.png",
+    "static/media/service7.png": "/Arudha/static/media/service7.fc914e9b188cc5d4a982.png",
+    "static/media/service2.png": "/Arudha/static/media/service2.90879068f103172882c8.png",
+    "static/media/service1.png": "/Arudha/static/media/service1.13b2d24d9808ff25c6aa.png",
+    "static/media/bg3.jpg": "/Arudha/static/media/bg3.d7fdfcc39aedefc7d1bd.jpg",
+    "static/media/img2.png": "/Arudha/static/media/img2.f063203353a3abf6ad7d.png",
+    "static/media/img5.png": "/Arudha/static/media/img5.f51043cddf98c94304f3.png",
+    "static/media/img4.png": "/Arudha/static/media/img4.61d7ab4a79303ed6e41c.png",
+    "static/media/Vision.png": "/Arudha/static/media/Vision.1697953e75562f1cce55.png",
+    "static/media/future.png": "/Arudha/static/media/future.092f27ea7f5288150668.png",
+    "static/media/img6.png": "/Arudha/static/media/img6.b78f02e5f453ef2c4dde.png",
+    "static/media/bg2.webp": "/Arudha/static/media/bg2.f1a964543fe42a19e04a.webp",
+    "static/media/bg.jpg": "/Arudha/static/media/bg.01099fd0ebbf69878948.jpg",
+    "static/media/logo.png": "/Arudha/static/media/logo.ecb939b7b64fd4cff45f.png",
+    "static/media/SEO.png": "/Arudha/static/media/SEO.6d0fee7f3e3bda7d5e4c.png",
+    "static/media/img3.png": "/Arudha/static/media/img3.d78c24c5eb00d6076ded.png",
+    "index.html": "/Arudha/index.html",
+    "main.ac202138.css.map": "/Arudha/static/css/main.ac202138.css.map",
+    "main.7640a466.js.map": "/Arudha/static/js/main.7640a466.js.map",
+    "453.754f0d1f.chunk.js.map": "/Arudha/static/js/453.754f0d1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac202138.css",
+    "static/js/main.7640a466.js"
+  ]
+}
